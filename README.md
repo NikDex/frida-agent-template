@@ -1,8 +1,8 @@
 ### How to compile & load
 
 ```sh
-$ git clone https://github.com/oleavr/frida-agent-example.git
-$ cd frida-agent-example/
+$ git clone https://github.com/NikDex/frida-agent-template.git
+$ cd frida-agent-template/
 $ npm install
 $ frida -U -f com.example.android -l _agent.js
 ```
