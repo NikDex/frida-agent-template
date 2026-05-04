@@ -10,9 +10,11 @@
     "watch": "frida-compile agent/index.ts -o _agent.js -w"
   },
   "devDependencies": {
+    "@foxglove/crc": "^1.0.1",
     "@types/frida-gum": "^19.0.0",
     "@types/node": "^18.19.111",
     "frida-compile": "^19.0.4",
-    "frida-java-bridge": "^7.0.1"
+    "frida-java-bridge": "^7.0.1",
+    "frida-il2cpp-bridge": "^0.13.1"
   }
 }
