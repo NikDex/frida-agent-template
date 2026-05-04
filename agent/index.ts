@@ -6,5 +6,5 @@ if (Java.available) {
         
     });
 } else {
-    console.log("No Java VM in this process");
+    log("No Java VM in this process");
 }
